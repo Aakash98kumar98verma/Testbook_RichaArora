@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Payment</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <h1 style="color: whitesmoke;">Payment Gateways</h1>
+     <hr>
+     <form action="">
+          <fieldset>
+               <legend style="color: whitesmoke; font-size: larger;">Payment options</legend>
+               <div style="color: whitesmoke; font-size: larger;">Select Payment any Option:
+                    <fieldset>
+                         <legend>Card_Payment</legend>
+                         <label for="Card">
+                              <div>
+                                   <input type="radio" name="Payment" id="Card">Credit/ Debit/ ATM Card <br>
+                                   Pay securely using your Card
+                                   <div>
+                                        <label for="Card_no">Card Number
+                                             <input type="number" name="Card_no" id="Card_no"
+                                                  placeholder="111100000011111">
+                                        </label>
+                                   </div>
+                                   <div>
+                                        <label for="Cardholder">Cardholder Name
+                                             <input type="text" name="Cardholder" id="Cardholder"
+                                                  placeholder="Cardholder Name">
+                                        </label>
+                                   </div>
+                                   <div>
+                                        <label for="Expiration">Expiration Date
+                                             <input type="date" name="Expiration" id="Expiration">
+                                        </label>
+                                   </div>
+                                   <div>
+                                        <label for="CVV">CVV
+                                             <input type="number" name="CVV" id="CVV" placeholder="123">
+                                        </label>
+                                   </div>
+                                   <div>
+                                        <button style="background-color: #d76f30; cursor: pointer;">
+                                             Verify
+                                        </button>
+                                   </div>
+                                   <div>
+                                        <label for="OTP">OTP
+                                             <input type="number" name="OTP" id="OTP">
+                                        </label>
+                                   </div>
+                              </div>
+                         </label>
+                    </fieldset>
+
+                    <fieldset>
+                         <legend>UPI_Payment</legend>
+                         <label for="UPI">
+                              <div>
+                                   <input type="radio" name="Payment" id="UPI">UPI ID
+                                   UPI payment powered by Google pay
+                                   <div>
+                                        <label for="upi_id">Enter UPI ID
+                                             <input type="email" name="upi_id" id="upi_id" placeholder="**********@upi">
+                                        </label>
+                                   </div>
+                                   <div>
+                                        <label for="Verify">
+                                             <input type="button" value="Verify" style="background-color: #d76f30; cursor: pointer;>
+                                        </label>
+                                   </div>
+                              </div>
+                         </label>
+                    </fieldset>
+                    <a href="registration.html">
+                         <input type="button" value="Payment" style="background-color: #d76f30; cursor: pointer;">
+                    </a>
+               </div>
+          </fieldset>
+          <div>
+          </div>
+     </form>
+     <footer>
+          <p style="color: whitesmoke; font-size: larger;">100% Safe and Secure Payment..!</p>
+     </footer>
+</body>
+
+</html>

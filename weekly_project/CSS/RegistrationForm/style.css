@@ -1,0 +1,8 @@
+body {
+     /* hsl(hue, saturation, lightness)
+     Hue is a degree on the color from 0 to 360 which include 0 is red, 120 is green, and 240 is blue.
+     Saturation is a percentage value which include 0% means a shade of gray, and 100% is the full color. 
+     lightness is brigtness of color which is from 0% to 100%
+     HSL also contain alfa value which is HSLA*/
+     background-color: hsl(195, 53%, 79%);
+}

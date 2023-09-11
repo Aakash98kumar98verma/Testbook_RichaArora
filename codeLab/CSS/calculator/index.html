@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+          #nums{
+               border: 3px dashed rgb(61, 62, 63);
+               border-radius: 15px;
+               width: 300px;
+               /* display: flex; */
+               justify-content: center;
+               background-color: rgba(150, 148, 148, 0.507);
+               margin: 0 auto;
+          }
+          #display{
+               text-align: center;
+               height: 35px;
+               margin: 10px 5px 5px 5px;
+               border-radius: 4px;
+               border: 3px solid black
+          }
+          .num{
+               display: flex;
+               justify-content: center;
+          }
+          button{
+               margin: 5px;
+               padding: 5px;
+               border-radius: 4px;
+               border: 3px solid rgb(0, 0, 0);
+               font-weight: bold;
+               height: 35px;
+               width: 35px;
+               font-size: 15px;
+          }
+          button:hover{
+               border: 2px solid black;
+               color: #fff;
+               background-color: black;
+          }
+     </style>
+     <title>Calculator</title>
+</head>
+
+<body>
+     <h1 style="text-align: center;">Calculator</h1>
+     
+     <div id="nums">
+          <div style="text-align: center;"><input type="number" name="number" id="display"></div>
+          <div class="num"><button>1</button> <button>2</button> <button>3</button> <button>+</button></div><br>
+          <div class="num"><button>4</button> <button>5</button> <button>6</button> <button>-</button></div><br>
+          <div class="num"><button>7</button> <button>8</button> <button>9</button> <button>X</button></div><br>
+          <div class="num"><button>C</button> <button>0</button> <button>=</button> <button>/</button></div><br>
+     </div>
+</body>
+
+</html>

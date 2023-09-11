@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration Form [Minor Assignment]</title>
+     <link rel="icon" type="image/x-icon" href="./favicon-32x32.png">
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <form action="">
+          <fieldset>
+               <h2>Registration Form</h2>
+               <p>Enter your details below</p>
+               <ul>
+                    <div>
+                         <li>
+                              <label for="user_id">
+                                   <input type="email" name="user_id" requiredplaceholder="Email"
+                                        value="your_email@gmail.com" required>
+                              </label>
+                         </li>
+                    </div><br>
+                    <div>
+                         <li>
+                              <label for="security">
+                                   <input type="password" name="security" required placeholder="Password" minlength="8"
+                                        maxlength="20">
+                              </label>
+                         </li>
+                    </div>
+               </ul>
+               <h4>
+                    <p>! Type a complex password with 8-20 characters.</p>
+               </h4>
+               <div>
+                    <ul>
+                         <li><label for="mob"><input type="number" name="mob" required placeholder="+20 Phone Number"
+                                        minlength="10" maxlength="10"></label></li>
+                    </ul>
+               </div>
+               <hr>
+               <h3>Enter your profession:</h3>
+               <div>
+                    <label for="Student">
+                         <input type="radio" name="profession" id="Student">Student
+                    </label>
+                    <label for="Teacher">
+                         <input type="radio" name="profession" id="Teacher">Teacher
+                    </label>
+                    <label for="Developer">
+                         <input type="radio" name="profession" id="Teacher">Developer
+                    </label>
+               </div><br>
+               <div>
+                    <label for="stage">Choose the stage if you are (student)</label>
+                    <select name="stage" id="stage">
+                         <optgroup label="Primarystage">
+                              <option value="primary">primary stage</option>
+                              <option value="secondary">secondary stage</option>
+                              <option value="third">third stage</option>
+                              <option value="forth">forth stage</option>
+                              <option value="fifth">fifth stage</option>
+                         </optgroup>
+                         <optgroup label="Preparatory stage">
+                              <option value="primary">primary Preparatory</option>
+                              <option value="secondary">secondary Preparatory</option>
+                              <option value="third">third Preparatory</option>
+                              <option value="forth">forth Preparatory</option>
+                         </optgroup label>
+                         <optgroup label="Secondary stage">
+                              <option value="primary">first Secondary</option>
+                              <option value="secondary">second Secondary</option>
+                              <option value="third">third Secondary</option>
+                         </optgroup label>
+                    </select>
+               </div>
+               <hr>
+               <div>
+                    <ul>
+                         <li>
+                              <label for="DOB">
+                                   Enter Your Birth Date: <input type="date" name="DOB" required>
+                              </label>
+                         </li>
+                    </ul>
+               </div>
+               <hr>
+               <div>
+                    <ul>
+                         <li>
+                              <label for="message">
+                                   <input type="text" name="message" placeholder="Any Notes">
+                              </label>
+                         </li>
+                    </ul>
+               </div>
+               <hr>
+               <input type="submit" value="Submit">
+               <input type="reset" value="Reset">
+          </fieldset>
+
+     </form>
+</body>
+
+</html>

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #888;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 100;
+}
+
+body {
+    background-color: #293f50;
+}
+
+/* ***************header starts ********* */
+header {
+    margin: 2% auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li a {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 48px;
+    padding: 2%;
+}
+
+header h1 a {
+    color: #fff;
+}
+
+.container h3 {
+    font-size: 20px;
+    text-align: right;
+    color: #648880;
+    line-height: 65px;
+}
+
+header h1 :hover {
+    color: #648880;
+}
+
+.navbar li a:hover {
+    color: #648880;
+}
+
+/* *****************header ends************ */
+/* *****banner-1**** */
+.banner1 {
+    margin: 1% auto;
+    text-align: center;
+    width: 50%;
+}
+
+.banner1 h2 {
+    font-size: 34px;
+    color: #648880;
+    line-height: 2.5rem;
+}
+
+.banner1 p {
+    font-size: 20px;
+    color: #fff;
+    line-height: 2.5rem;
+}
+
+.banner1 a button {
+    padding: 2%;
+    background-color: #293f50;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner1 a {
+    line-height: 5rem;
+}
+
+.banner1 a button:hover {
+    background-color: #fff;
+    color: #293f50;
+}
+
+/* *****banner-1 ends**** */
+/* *****banner-2 **** */
+.banner2 {
+    background-color: #fff;
+}
+
+.container2 {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1%;
+    padding: 5% 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 img {
+    border-radius: 5px;
+}
+
+.container2 h5 {
+    line-height: 2.5rem;
+}
+
+.container2 h3 {
+    line-height: 2.5rem;
+}
+
+.container2 p {
+    font-size: small;
+}
+
+/* *****banner-2 ends**** */
+/*  **********footer starts********** */
+footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.copyright {
+    font-size: small;
+}
+
+footer ul li a {
+    font-size: small;
+}
+
+/* -----------page 1 mane page complete---------------- */
+
+
+/* *******************  page 2 or register page ************* */
+/* menu items in all option */
+.menu-banner {
+    background-color: #a1d3b0;
+    padding: 2.5%;
+}
+
+.menu-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-container h2 {
+    line-height: 4rem;
+}
+/* menu items in all option */
+/* *banner2 starts* */
+.reg-banner2 {
+    background-color: #fff;
+    padding: 2.5%;
+}
+
+#main-container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inside1 {
+    line-height: 2rem;
+}
+
+#inside3 ul li {
+    list-style: square;
+}
+
+.right {
+    padding: 0 5%;
+    line-height: 1.5em;
+}
+
+form div {
+    padding: 0.5em 0;
+}
+
+#name,
+#email,
+#passes {
+    padding: 5px;
+}
+
+.puschase input {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #293f50;
+    cursor: pointer;
+}
+
+/* *banner2 ends** */
+
+
+/* -----------------page3 speaker page------------------ */
+.spe-banner2{
+    background-color: #fff;
+    padding: 2.5%;
+}
+.spe-container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+}
+.leacture{
+    font-size: small;
+    padding: 1% 0;
+}
+#name1{padding: 2.5%;}
+#img1{
+    padding: 2.5%;
+    text-align: center;
+    font-size: small;
+    line-height: 2rem;
+}
+#img1 img{width: 100px; border-radius: 50%;}
+
+#name2{padding: 2.5%;}
+#img2{
+    padding: 2.5%;
+    text-align: center;
+    font-size: small;
+    line-height: 2rem;
+}
+#img2 img{width: 100px; border-radius: 50%;}
+
+#name3{padding: 2.5%;}
+#img3{
+    padding: 2.5%;
+    text-align: center;
+    font-size: small;
+    line-height: 2rem;
+}
+#img3 img{width: 100px; border-radius: 50%;}
+
+/* -----------------page4 venue page------------------ */
+
+.venue-banner2{
+    background-color: #fff;
+    padding: 2.5%;
+}
+.venue-container{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+}
+#location1, #location2{
+    padding: 2.5%;
+}
+#theatre1, #theatre2{
+    padding: 2.5%;
+    line-height: 1.5rem;
+}
+#theatre1, #theatre2 p{font-size: small;}

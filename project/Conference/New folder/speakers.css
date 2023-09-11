@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #888;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 100;
+}
+
+body {
+    background-color: #293f50;
+}
+/* ***************header starts ********* */
+header {
+    margin: 2% auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li a {
+    color: #fff;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 48px;
+    padding: 2%;
+}
+
+header h1 a {
+    color: #fff;
+}
+
+.container h3 {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: right;
+    color: #648880;
+    line-height: 65px;
+}
+
+header h1 :hover {
+    color: #648880;
+}
+
+.navbar li a:hover {
+    color: #648880;
+}
+
+/* *****************header ends************ */
+/* *******banner1 starts********* */
+.reg-banner1{
+    background-color: #a1d3b0;
+    padding: 2.5%;
+}
+.reg-container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.reg-container h1{
+    font-weight: 100;
+    line-height: 4rem;
+}
+/* *******banner1 ends********* */
+/* --------banner2 ---------- */
+.spe-banner2{
+    background-color: #fff;
+}
+.spe-container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-gap: 2%; */
+
+}
+
+/*  **********footer starts********** */
+footer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0;
+}
+
+.copyright {
+    font-size: small;
+}
+
+footer ul li a {
+    font-size: small;
+}

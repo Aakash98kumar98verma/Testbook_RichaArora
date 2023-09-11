@@ -1,0 +1,69 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+pre {
+     height: 100px;
+     width: 100%;
+     overflow-x: scroll;
+}
+
+body {
+     background-color: rgb(206, 236, 178);
+}
+
+#scroll {
+     height: 100px;
+     width: 100%;
+     overflow-y: scroll;
+     margin: 10px;
+     padding-right: 20px;
+}
+
+#decrotion {
+     color: rgb(38, 40, 126);
+     font-size: xx-large;
+     font-weight: 800;
+     text-align: center;
+     text-decoration: underline overline line-through rgb(38, 40, 126) solid 2px;
+     /* text-decoration: underline overline line-through rgb(38, 40, 126) double solid dashed 2px; */
+     /* text-decoration: overline rgb(38, 40, 126) solid 2px; */
+     /* text-decoration: line-through rgb(38, 40, 126) dashed 2px; */
+
+}
+
+#para p::first-letter {
+     text-transform: capitalize;
+}
+
+#para {
+     color: brown;
+     font-size: larger;
+     font-weight: 500;
+     text-align: center;
+     margin-top: 10px;
+}
+
+#poster {
+     margin: 40px;
+     border: 2px solid #fff;
+     border-radius: 30px;
+     background-color: black;
+     box-shadow: 10px 10px 7.5px rgb(42, 173, 42), -10px -10px 7.5px rgb(243, 134, 31);
+
+}
+
+.banner {
+     text-align: center;
+     font-family: 'Caprasimo', cursive;
+     font-size: 100px;
+     font-weight: 900;
+     background-image: url("./ind-flag2.jpg");
+     background-repeat: no-repeat;
+     text-shadow: 0px 7.5px 35px rgba(17, 90, 17, 0.6), -7.5px 0px 35px rgba(243, 134, 31, 0.6);
+     background-size: 100% 100%;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+}

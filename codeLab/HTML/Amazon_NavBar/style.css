@@ -1,0 +1,11 @@
+*{
+     font-size: medium;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+     background-color: #0F1111;
+}
+button{
+     background-color:  #0F1111;
+}

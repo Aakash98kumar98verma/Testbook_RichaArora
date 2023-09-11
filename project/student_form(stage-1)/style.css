@@ -1,0 +1,40 @@
+*{
+     margin: 5px;
+     padding: 5px;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+     background-color: #172D13;
+}
+h1 img{
+     display: flex;
+     align-items:center;
+     margin: 0px 0 -45px 395px;
+}
+.Course{
+     text-align: center;
+}
+
+.Subsidiary{
+     text-align: center;
+}
+.Comments{
+     text-align: center;
+}
+.Pay{
+     text-align: center;
+     
+}
+.Terms{
+     text-align: center;
+}
+.done{
+     text-align: center;
+}
+.done input{
+     color: whitesmoke;
+     background-color: #d76f30;
+     font-size: larger;
+     cursor: pointer;
+}

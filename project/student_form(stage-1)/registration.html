@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registration Form</title>
+     <link rel="stylesheet" href="style.css">
+     <style>
+          p.center_style {
+               color: whitesmoke;
+               text-align: center;
+          }
+     </style>
+</head>
+
+<body>
+     <h1 style="color:whitesmoke; text-align: center;">Student Registration Form</h1>
+     <p class="center_style"><strong>Fill out the form and pay the required fee for Registration.</strong></p>
+     <hr>
+     <div>
+          <form action="">
+               <fieldset>
+                    <legend style="color: whitesmoke; font-size: larger;">Student Details</legend>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         Student Name <br>
+                         <input type="text" name="First_Name" id="first" placeholder="First_Name" required>
+                         <input type="text" name="Middle_Name" id="middle" placeholder="Middle_Name">
+                         <input type="text" name="Last_Name" id="last" placeholder="Last_Name" required>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         Date Of Birth <br>
+                         <input type="date" name="DOB" id="DOB" required>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         <label for="Address">
+                              Address
+                              <textarea name="Address" id="Address" cols="60" rows="1" required></textarea>
+                         </label>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         Gender:-
+                         <label for="Male">
+                              <input type="radio" name="Gender" id="Male">Male
+                         </label>
+                         <label for="Female">
+                              <input type="radio" name="Gender" id="Female">Female
+                         </label>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         <label for="email">Email-id
+                              <input type="email" name="email" id="email" placeholder="Email">
+                         </label>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         <label for="Mob">Mobile no.
+                              <input type="tel" name="Mob" id="Mob">
+                         </label>
+                    </div>
+                    <hr>
+               </fieldset>
+
+               <fieldset>
+                    <legend style="color: whitesmoke; font-size: larger;">Guardian Details</legend>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         <label for="Guardian">Guardian Name:
+                              <input type="text" name="Guardian" id="Guardian" required>
+                         </label>
+                    </div>
+                    <hr>
+                    <div style="color: whitesmoke; font-size: larger;">
+                         <label for="Mobile">Guardian Mobile no.:
+                              <input type="tel" name="Mobile" id="Mobile" required>
+                         </label>
+                    </div>
+                    <hr>
+               </fieldset>
+
+               <fieldset style="color: whitesmoke; font-size: larger;">
+                    <legend style="color: whitesmoke; font-size: larger;">Educational Details</legend>
+                    <div class="Course">
+                         <u>Select Course for which you want to register for:</u>
+                         <select name="Course" id="Course" required>
+                              <option selected>--Select Course--</option>
+                              <option value="B.C.A.">B.C.A.</option>
+                              <option value="B.B.A.">B.B.A.</option>
+                              <option value="B.Tech">B.Tech</option>
+                              <option value="B.Com.">B.Com.</option>
+                              <option value="B.Sc.">B.Sc.</option>
+                              <option value="B.A.">B.A.</option>
+                              <option value="B.Ed.">B.Ed.</option>
+                              <option value="B.Arch.">B.Arch.</option>
+                         </select>
+                    </div>
+                    <hr>
+                    <div class="Subsidiary"><u>Select any two subsidiary subject options or select any one and write any
+                              one of the valid subsidiary subject like regional language or other subject in text
+                              box:</u><br>
+                         <label for="English">
+                              <input type="checkbox" name="Subsidiary" id="English">English
+                         </label>
+                         <label for="Hindi">
+                              <input type="checkbox" name="Subsidiary" id="Hindi">Hindi
+                         </label>
+                         <label for="Math">
+                              <input type="checkbox" name="Subsidiary" id="Math">Math
+                         </label>
+                         <label for="Economics">
+                              <input type="checkbox" name="Subsidiary" id="Economics">Economics
+                         </label>
+                         <label for="Geography">
+                              <input type="checkbox" name="Subsidiary" id="Geography">Geography
+                         </label>
+                         <br>
+                         <label for="Sub.">Subsidiary Subject:
+                              <input type="text" name="Sub." id="Sub.">
+                         </label>
+                    </div>
+                    <hr>
+               </fieldset>
+
+               <hr>
+               <div class="Comments" >
+                    <textarea name="Comments" id="Comments" cols="30" rows="10">Additional Comments</textarea>
+               </div>
+               <hr>
+               <div class="Pay" style="color: whitesmoke; font-size: larger;">
+                    * Pay the required fee before submission of form by clicking the given button. &#8594;
+                    <a href="payment.html" target="_blank">
+                         <input type="button" value="Payment" style="cursor: pointer; background-color: #d76f30; color: whitesmoke;">
+                    </a>
+
+               </div>
+               <hr>
+               <div class="Terms" style="color: whitesmoke; font-size: larger;">
+                    <label for="Terms&Condition">
+                         <input type="checkbox" name="Terms&Condition" id="Terms&Condition" required>Read the required
+                         documents properly and check on
+                         <a href="terms&conditions.html" target="_blank">terms and comditions</a>.
+                    </label>
+               </div>
+               <hr>
+               <div class="done">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+               </div>
+               <hr>
+
+          </form>
+     </div>
+
+</body>
+
+</html>
